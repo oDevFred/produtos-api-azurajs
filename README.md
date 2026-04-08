@@ -1,6 +1,6 @@
 # Products API
 
-API simples de exemplo construída com [AzuraJS](https://www.npmjs.com/package/azurajs) e TypeScript. O projeto expõe um CRUD de produtos com dados mantidos em memória, então qualquer alteração é perdida ao reiniciar o servidor.
+API simples de exemplo construída com [AzuraJS](https://azura.js.org/) e TypeScript. O projeto expõe um CRUD de produtos com dados mantidos em memória, então qualquer alteração é perdida ao reiniciar o servidor.
 
 ## Requisitos
 
