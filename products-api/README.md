@@ -1,6 +1,6 @@
 # Products API
 
-API simples de estudo construída com [AzuraJS](https://www.npmjs.com/package/azurajs) e TypeScript. O projeto expõe um CRUD de produtos com dados mantidos em memória, então qualquer alteração é perdida ao reiniciar o servidor.
+API simples de exemplo construída com [AzuraJS](https://www.npmjs.com/package/azurajs) e TypeScript. O projeto expõe um CRUD de produtos com dados mantidos em memória, então qualquer alteração é perdida ao reiniciar o servidor.
 
 ## Requisitos
 
@@ -89,4 +89,8 @@ products-api/
 
 - Os dados ficam apenas em memória.
 - O controller já usa decorators do AzuraJS para registrar as rotas automaticamente.
-- Este projeto é útil como base para estudos e para evoluir depois para banco de dados e validação de entrada.
+- Este projeto é um exemplo base para evoluir depois para banco de dados e validação de entrada.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para os detalhes.
