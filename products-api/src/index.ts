@@ -1,9 +1,9 @@
-import { AzuraClient } from "azurajs";
+import { AzuraServer } from "azurajs";
 import { applyDecorators } from "azurajs/decorators";
 import { ProductController } from "./controllers/ProductController";
 
 // Cria a aplicacao HTTP do AzuraJS.
-const app = new AzuraClient();
+const app = new AzuraServer();
 
 // Registra os decorators do controller para montar as rotas automaticamente.
 applyDecorators(app, [ProductController]);
